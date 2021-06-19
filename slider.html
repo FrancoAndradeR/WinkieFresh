@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WinkieFresh - Galería</title>
+    <link rel="shortcut icon" href="winkiefresh.png">
+<style type = "text/css">
+
+html {font: 16px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;}
+h1 {font-size: 2.25em;}
+
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #81DAF5;
+}
+
+.container {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+}
+
+ .heading {
+
+	
+	line-height: 1.5;
+	text-align: center;
+	padding: 3.5rem 0;
+	color: #ffffff;
+	text-shadow: black 0.1em 0.1em 0.2em
+}
+
+.heading span {
+	display: block;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+<div class="container">
+
+	<h1 class="heading">Galería de imágenes de <span><img src="a.png"> </span></h1>
+
+	<div class="gallery">
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="glasses_of_soda_with_ice_cubes-wallpaper-480x640.jpg">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="q.jpg">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="w.jpg">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="refri.jpg">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="naranja.jpg">
+		</div>
+
+		<div class="gallery-item">
+			<img class="gallery-image" src="chava.jpg" >
+		</div>
+
+	</div>
+
+</div>
+<a href="aa.html">  <button type="button"  class="submit-button">
+        Regresar
+      </button><a>
+	  

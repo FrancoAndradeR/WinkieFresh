@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>WinkieFresh - Nosotros</title>
+    <link rel="shortcut icon" href="winkiefresh.png">
+<head> <style type "text/css">
+
+// Mixins
+@mixin transition($property) {transition: $property .25s;}
+
+/*Typography*/
+html {font: 16px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;}
+h1 {font-size: 2.25em; color: #ffffff;text-shadow: black 0.1em 0.1em 0.2em;}
+h2 {font-size: 2em;color: #ffffff;text-shadow: black 0.1em 0.1em 0.2em;}
+h3 {font-size: 1.75em; color: #ffffff;text-shadow: black 0.1em 0.1em 0.2em;}
+h4 {font-size: 1.5em;color: #ffffff;text-shadow: black 0.1em 0.1em 0.2em;}
+p {font-size: 1.25em;color: #ffffff; text-shadow: black 0.1em 0.1em 0.2em;}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color:#FAAC58;
+}
+body {color: #353535;}
+*,
+*:before,
+*:after {box-sizing: border-box;}
+.line {
+  float: left;
+  width: 100%;
+  border-top: .25em solid $lightBlack;
+}
+.wrapper {
+  margin: auto;
+  width: 60em;/*960px*/
+  //min-height: 100%;
+}
+
+section,
+ {
+  float: left;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  transition: color .25s;
+}
+section {margin: 1em 0;}
+section h1 {text-transform: uppercase;}
+hr{ border-color: $lightGrey;
+  border-style: dashed;}
+.vertical {
+  width: 0;
+  height: 10px;}
+/*Boxes*/
+.box {
+  float: left;
+  padding: 1.5em 1em;
+  width: 25%;
+  height: 350px;
+  border-top: .1em solid $lightGrey;
+  border-bottom: .1em solid $lightGrey;
+  border-left: .1em solid $lightGrey;
+  @include transition(background);
+  
+}
+
+footer {
+  padding: 2em 0;
+  width: 100%;
+  text-align: center;
+  background: $lightGrey;
+}
+
+</style>
+</head>
+<body>
+
+<div class="wrapper">
+  <header role="banner">
+     <center> <h1><a href="aa.html"> <marquee behavior=alternate> <img src="winkiefresh.png" > </marquee> </a></h1> </center>
+  </header>
+  <main>
+    <section class="sec-boxes" role="section">
+      <article class="box">
+        <h1>VISIÓN</h1>
+        <p>Ser la empresa de gaseosas más grande del país con presencia internacional.</p>
+      </article>
+      <article class="box">
+        <h1>MISIÓN</h1>
+        <p>Mejorar la calidad de vida de las personas mientras disfrutan del mejor refresco de frutas naturales
+</p>
+      </article>
+      <article class="box">
+        <h1>OBJETIVO</h1>
+        <p>Transformar la perspectiva negativa del refresco por una positiva que conviva con el estilo de vida saludable
+</p>
+      </article>
+      <article class="box">
+        <h1>VALORES</h1>
+        <p>Respeto - Amistad - Solidaridad</p>
+      </article>
+    </section>
+    <section class="sec-projects" role="section">
+      <hr/>
+      <h1>¿Quiénes somos?</h1>
+      <article>
+        <h2>Director General Franco Andrade</h2>
+        <p>Encargado de coordinar todas las actividades de la empresa, es decir, supervisar el desempeño de los empleados, controlar los presupuestos, establecer los objetivos generales, además de asegurar que todas estas actividades se realicen de manera eficiente, organizada, segura y rentable.</p>
+      </article>
+      <article>
+        <h2>Líder en Marketing Francisco Cabrito</h2>
+        <p>Se centra en cumplir metas de ventas, seguidores en redes sociales, incrementar cartera de clientes, aumentar bases de datos de consumidores, para eso, tiene un conocimiento claro del negocio, cuenta con habilidades de comunicación y formación humana. </p>
+      </article>
+      <article>
+        <h2>Líder en Creación y Control André Pérez</h2>
+        <p>Responsable de que todos los requerimientos de Producción se cumplan; ya sea en el área de Soldadura, Plásticos y Rolado. Ésto incluye los métricos clave del desempeño de Producción.</p>
+      </article>
+    </section>
+
+  </main>
+</div>
+<footer>
+  
+      <a href="términosycondiciones.html">Términos y Condiciones</a>
+ 
+</footer>
